@@ -108,8 +108,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="bin\Debug\AvTecGabriela.dll.config" />
-    <None Include="bin\Debug\nunit_random_seed.tmp" />
     <None Include="Features\Posts.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Posts.feature.cs</LastGenOutput>
@@ -117,6 +115,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\AvTecGabriela.dll.config" />
+    <Content Include="bin\Debug\nunit_random_seed.tmp" />
     <Content Include="bin\Debug\AvTecGabriela.dll" />
     <Content Include="bin\Debug\DnsClient.dll" />
     <Content Include="bin\Debug\ExtentReports.dll" />
