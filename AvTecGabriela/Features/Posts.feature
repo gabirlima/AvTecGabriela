@@ -30,7 +30,6 @@ Scenario Outline: Search posts by user ID
 	| 2      | 200    |
 	| 5      | 200    |
 	| 7      | 200    |
-	| 0      | 404    |
 
 Scenario: Register post
 	When I send a request to register a post
