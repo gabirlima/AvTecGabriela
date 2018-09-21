@@ -92,7 +92,7 @@ namespace AvTecGabriela.Endpoints
             request = new RestRequest(Method.PATCH);
 
             request.AddHeader("Content-type", "application/json; charset=UTF-8");
-            request.AddBody("title", "alterando título do post");
+            request.AddParameter("undefined", "{\"title\":\"alterando título do post\"}", ParameterType.RequestBody);
 
             response = client.Execute(request);
         }
