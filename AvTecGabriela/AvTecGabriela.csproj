@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Config\Hooks.cs" />
+    <Compile Include="JSONModels\PostModel.cs" />
     <Compile Include="Endpoints\Common.cs" />
     <Compile Include="Endpoints\PostEndpoint.cs" />
     <Compile Include="Features\Posts.feature.cs">
